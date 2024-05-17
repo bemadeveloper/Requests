@@ -1,3 +1,4 @@
+import Foundation
 
 // Components - собираем ссылку
 
@@ -64,3 +65,4 @@ func getData() {
 }
 
 getData()
+print("")
