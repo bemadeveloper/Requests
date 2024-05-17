@@ -24,6 +24,7 @@
 		D74311A22BF7A22B004080F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D74311A52BF7A22B004080F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D74311A72BF7A22B004080F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74311AE2BF7A267004080F8 /* iOS12-HW19-Akbermet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "iOS12-HW19-Akbermet.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		D74311982BF7A229004080F8 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
+				D74311AD2BF7A240004080F8 /* Hw */,
 				D74311992BF7A229004080F8 /* AppDelegate.swift */,
 				D743119B2BF7A229004080F8 /* SceneDelegate.swift */,
 				D743119D2BF7A229004080F8 /* ViewController.swift */,
@@ -65,6 +67,14 @@
 				D74311A72BF7A22B004080F8 /* Info.plist */,
 			);
 			path = Requests;
+			sourceTree = "<group>";
+		};
+		D74311AD2BF7A240004080F8 /* Hw */ = {
+			isa = PBXGroup;
+			children = (
+				D74311AE2BF7A267004080F8 /* iOS12-HW19-Akbermet.playground */,
+			);
+			path = Hw;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
